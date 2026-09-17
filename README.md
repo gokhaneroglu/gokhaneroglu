@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Hi there, I'm Gökhan Eroğlu 👋</h1>
-  <p><strong>Electrical & Electronics Engineer | Flight Dynamics, GNC & State Estimation Specialist</strong></p>
+  <p><strong>Electrical & Electronics Engineer | Autonomous Systems, Flight Dynamics & GNC</strong></p>
 
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gokhaneroglu01)
   [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gokhaneroglu2604@gmail.com)
@@ -11,34 +11,46 @@
 
 ### 📌 About Me
 
-Elektrik-Elektronik Mühendisi olarak insansız hava (İHA) ve kara (İKA) platformlarının **6-DOF uçuş dinamiği modellemesi, durum kestirimi (EKF), kapalı çevrim kontrolcü tasarımı (PID/LQR) ve donanım/yazılım çevrimli (SITL/HIL) simülasyonları** üzerine odaklanıyorum.
+Elektrik-Elektronik Mühendisi olarak insansız hava (İHA) ve kara (İKA) platformlarının **6-DOF dinamik/kinematik modellemesi, durum kestirimi (EKF), kapalı çevrim kontrolcü tasarımı (PID/LQR) ve simülasyon (SITL/HIL)** sistemleri üzerine odaklanıyorum.
 
-Üniversite bünyesinde kurucusu ve takım kaptanı olduğum **30 kişilik ANKA Otonom Sistemler Takımı** ile Savaşan İHA, Döner Kanat, İKA ve Hava Savunma Sistemleri gibi 5 farklı platformun teknik mimarisini, aviyonik entegrasyonunu ve saha uçuş testlerini yöneterek **6 farklı TEKNOFEST finalistliği** elde ettik.
+Üniversite bünyesinde kurucusu ve takım kaptanı olduğum **30 kişilik ANKA Otonom Sistemler Takımı** bünyesinde Savaşan İHA, Döner Kanat, İKA ve Hava Savunma Sistemleri gibi platformların teknik mimarisini, aviyonik entegrasyonunu ve uçuş testlerini yöneterek TEKNOFEST finalistlikleri elde ettik.
 
 ---
 
-### 🛠️ Technical Competencies & Toolchain
+### 💻 Core Tech Stack & Environment
+
+<div align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" />
+  <img src="https://img.shields.io/badge/Simulink-E16726?style=for-the-badge&logo=mathworks&logoColor=white" />
+  <img src="https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gazebo-FF6F00?style=for-the-badge&logo=gazebo&logoColor=white" />
+  <img src="https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</div>
+
+---
+
+### 🛠️ Technical Competencies
 
 <table>
   <tr>
-    <td width="30%"><strong>Flight Dynamics & Control</strong></td>
-    <td>6-DOF Dynamic & Kinematic Modeling, Closed-Loop PID / LQR Control, Gain Scheduling, Aerodynamic Derivatives (XFLR5), State-Space Systems</td>
+    <td width="28%"><strong>Flight Dynamics & Control</strong></td>
+    <td>6-DOF Dinamik ve Kinematik Modelleme, Kapalı Çevrim PID / LQR Kontrol, Aerodinamik Analiz (XFLR5), Durum-Uzay Sistemleri</td>
   </tr>
   <tr>
-    <td><strong>State Estimation & Navigation</strong></td>
-    <td>Extended Kalman Filter (EKF), Sensor Fusion (IMU, GNSS, Pitot Tube, Barometer), Inertial Navigation (INS), Optical Target Tracking (OpenCV)</td>
+    <td><strong>Kestirim & Seyrüsefer</strong></td>
+    <td>Extended Kalman Filter (EKF), Sensör Füzyonu (IMU, GNSS, Pitot Tüpü, Barometre), Ataletsel Seyrüsefer (INS), Optik Hedef Takibi (OpenCV)</td>
   </tr>
   <tr>
-    <td><strong>Simulation & Systems</strong></td>
-    <td>Gazebo (SITL / HIL), ArduPilot, ROS 2, PyMAVLink, 3D Environment & World Modeling (Blender)</td>
+    <td><strong>Simülasyon & Sistemler</strong></td>
+    <td>Gazebo (SITL / HIL), ArduPilot, ROS 2, PyMAVLink, 3D Yarışma & Parkur Modelleme (Blender)</td>
   </tr>
   <tr>
-    <td><strong>Hardware & Embedded</strong></td>
-    <td>Pixhawk / Orange Cube Autopilots, Nvidia Jetson, CAN Bus, SPI, UART, I2C, BLDC Propulsion Modeling (Ansys Maxwell)</td>
-  </tr>
-  <tr>
-    <td><strong>Languages & Tools</strong></td>
-    <td>C / C++, Python, MATLAB & Simulink, Git, Linux / Ubuntu</td>
+    <td><strong>Gömülü & Donanım</strong></td>
+    <td>Pixhawk / Orange Cube Otopilotlar, Nvidia Jetson, CAN Bus, SPI, UART, I2C, BLDC Motor & İtki Modellemesi (Ansys Maxwell)</td>
   </tr>
 </table>
 
@@ -47,38 +59,27 @@ Elektrik-Elektronik Mühendisi olarak insansız hava (İHA) ve kara (İKA) platf
 ### 🚀 Featured Engineering Projects
 
 #### 🎯 Combat UAV (TEKNOFEST Savaşan İHA — Finalist)
-- **Air-to-Air & Air-to-Ground Autonomy:** 6-DOF dynamic modeling in Gazebo; GNSS lock-on handover to nose-camera optical tracking.
-- **Flight Control & Safety:** Closed-loop dive and rapid pull-up recovery PID controllers; dynamic no-fly zone containment algorithms.
-- **Environment Simulation:** Custom 3D arena, runway, and aerial targets modeled in Blender for SITL simulation pipelines.
+- **Modelleme & Simülasyon:** Hava aracını ve uçuş sahasını Blender ve Gazebo üzerinde 6-DOF modelleyerek SITL simülasyon ortamını kurdum.
+- **Güdüm & Kontrol:** Hava hedeflerine GNSS kilidi atma, burun kamerasıyla optik takibe geçiş, agresif dalış/kurtarma PID kontrolü ve no-fly zone sınırlama algoritmaları geliştirdim.
 
 #### 📦 Autonomous Delivery Multirotor (TEKNOFEST Uluslararası İHA — Finalist)
-- **Precision Payload Drop:** Dual-point autonomous payload acquisition and release using computer vision alignment.
-- **Guidance & State Estimation:** ArduPilot/PyMAVLink driven waypoint following and EKF sensor fusion under noisy telemetry conditions.
+- **Faydalı Yük Güdümü:** ArduPilot ve PyMAVLink tabanlı platformda 2 farklı hedef noktasına otonom yük alma ve hassas bırakma güdümünü geliştirdim.
+- **Seyrüsefer:** EKF tabanlı durum kestirimi, alt kamera ile hedef tanıma ve kapalı çevrim rota takip testlerini başarıyla doğruladım.
 
 #### 🚜 Unmanned Ground Vehicle (TEKNOFEST İKA — Finalist)
-- **Kinematic Modeling:** Differential-drive kinematic equations integrated into a ROS 2 stack.
-- **Perception & Mapping:** 2D/3D LiDAR sensor fusion with IMU data; SLAM-based real-time mapping and dynamic obstacle avoidance.
-- **Track Simulation:** Full competition obstacle course modeled 1:1 in Blender and ported to Gazebo for hardware validation.
+- **Kinematik & SLAM:** ROS 2 tabanlı diferansiyel sürüş kinematiği, 2D/3D LiDAR entegrasyonu ve SLAM ile eşzamanlı haritalama/seyrüsefer mimarisini kurdum.
+- **Çevre Modelleme:** Yarışma parkurunu ve engelleri Blender'da birebir modelleyerek Gazebo simülasyonuna aktardım ve saha testleriyle doğruladım.
 
-#### 🛡️ Anti-Jamming Navigation Architecture (TEKNOFEST Elektronik Harp — Finalist)
-- **Degraded Navigation:** Alternative INS/EKF state estimation under active GNSS jamming scenarios; redundant sensor health management.
+#### 🛡️ Anti-Jamming Navigation (TEKNOFEST Elektronik Harp — Finalist)
+- **Yedekli Seyrüsefer:** Aktif GNSS karıştırması (jamming) altındaki platformlar için alternatif seyrüsefer ve ataletsel durum kestirimi (INS/EKF) mimarisini kurguladım; RF ve aviyonik sistemlerin entegrasyon mantığını tasarladım.
 
-#### 🔬 Custom Avionics & Flight Control Architecture (TÜBİTAK 2209-A — Principal Investigator)
-- **System Engineering:** Principal Investigator for custom UAV avionics stack, BLDC propulsion modeling, and closed-loop control integration funded by TÜBİTAK.
-
----
-
-### 📊 GitHub Activity & Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gokhaneroglu&show_icons=true&theme=tokyonight&hide_border=true" height="160em" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gokhaneroglu&layout=compact&theme=tokyonight&hide_border=true" height="160em" />
-</div>
+#### 🔬 Custom UAV Avionics Architecture (TÜBİTAK 2209-A — Proje Yürütücüsü)
+- **Sistem Mühendisliği:** Özgün İHA platformunun aviyonik mimarisi, BLDC motor itki sistemi modellemesi ve kapalı çevrim uçuş kontrol algoritmalarını geliştirerek projeyi başarıyla tamamladım.
 
 ---
 
 ### 🏆 Leadership & Community
 
-- **Founder & Team Captain @ ANKA Otonom Sistemler:** Led 30+ multidisciplinary engineers across 5 autonomous vehicle teams; managed budgets, avionics procurement, and field flight-test operations.
-- **Community Lead @ Young Software Developers Community:** Coordinated hands-on technical workshops in autonomous systems and robotics; organized the inaugural İSTEFEST technology showcase.
-- **Instructor & Mentor @ T3 Foundation (Deneyap):** Mentored high-school students in robotics, embedded systems, and UAV prototype design.
+- **Kurucu & Takım Kaptanı @ ANKA Otonom Sistemler:** 30 kişilik mühendislik ekibine liderlik ederek 5 farklı kategoride (Savaşan İHA, Döner Kanat, İKA, Elektronik Harp, HSS) otonom sistem projelerini ve saha uçuş testlerini yönettim.
+- **Topluluk Lideri @ Genç Yazılımcılar Topluluğu:** Otonom sistemler ve yazılım odaklı teknik atölyeler organize ettim; yüzlerce projenin sergilendiği üniversitenin ilk teknoloji festivali İSTEFEST'in genel koordinasyonunu yürüttüm.
+- **Eğitmen & Mentör @ T3 Vakfı (Deneyap):** Genç mühendislere robotik ve otonom sistem eğitimleri verdim; havacılık takımlarının prototip ve uçuş kontrol süreçlerine mentorluk yaptım.
